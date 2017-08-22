@@ -17,7 +17,7 @@
   <extension point="xbmc.addon.metadata">
 
     <summary lang="en">[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Installer[/COLOR]</summary>
-        <description lang="en">[COLOR darkorange]UNCODED[/COLOR] is the new succesor for KODI, your one stop shop for favorite add-ons and repositories</description>
+        <description lang="en">UNCODED is the new succesor, your one stop shop for KODI to get the most favorited add-ons and repositories</description>
             <disclaimer lang="en">[COLOR darkorange]UNCODED[/COLOR] did not make all the add-ons in UNCODED repository and is in no way responsible for their content.</disclaimer>
     <platform>all</platform>
     <source>https://github.com/nickpet3rs/UNCODED/blob/master/repository.UNCODED/</source>
