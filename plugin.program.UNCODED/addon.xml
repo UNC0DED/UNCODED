@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon 
 	id="plugin.program.UNCODED" 
-	version="1.0.2" 
+	version="1.0.3" 
 	name="[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Installer[/COLOR]" 
 	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
   <requires>
@@ -26,12 +26,12 @@
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
 <!--  <screenshots>resources/art/screenshots/1.png</screenshots> -->
-      <screenshots>resources/art/screenshots/2.png</screenshots>
-      <screenshots>resources/art/screenshots/3.png</screenshots>
-      <screenshots>resources/art/screenshots/4.png</screenshots>
-      <screenshots>resources/art/screenshots/5.png</screenshots>
-      <screenshots>resources/art/screenshots/6.png</screenshots>
-      <screenshots>resources/art/screenshots/7.png</screenshots>
+      <screenshots>resources/art/screenshot2.png</screenshots>
+      <screenshots>resources/art/screenshot3.png</screenshots>
+      <screenshots>resources/art/screenshot4.png</screenshots>
+      <screenshots>resources/art/screenshot5.png</screenshots>
+      <screenshots>resources/art/screenshot6.png</screenshots>
+      <screenshots>resources/art/screenshot7.png</screenshots>
     </assets>
   </extension>
 </addon>
