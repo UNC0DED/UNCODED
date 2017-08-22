@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon
+	id="plugin.program.UNCODED"
+	version="1.0.0"
+	name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Installer[/COLOR]"
+	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.UNCODED" version="1.0.0" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en">[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Installer[/COLOR]</summary>
+    <description lang="en">UNCODED allows you to get access to the latest UNCODED Custom Builds.</description>
+    <source>https://uncoded.tv</source>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+	id="repository.aftermath"
+	version="1.0.0"
+	name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR] "
+	provider-name="Aftermath">
+
+	<extension point="xbmc.addon.repository" name="Aftermath Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/nickpet3rs/UNC0DED/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nickpet3rs/UNC0DED/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nickpet3rs/UNC0DED/master/</datadir>
+		</dir>
+		<info compressed="false">http://raw.uncoded.tv/nickpet3rs/UNC0DED/master/addons.xml</info>
+		<checksum>http://raw.uncoded.tv/nickpet3rs/UNC0DED/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.uncoded.tv/nickpet3rs/UNC0DED/master/</datadir>
+
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+
+		<summary>[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Installer[/COLOR]</summary>
+		<description>UNCODED is the new succesor when it comes to a one stop shop for all your favorite KODI addons and repositories.</description>
+		<source>https://uncoded.tv</source>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

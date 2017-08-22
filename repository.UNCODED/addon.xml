@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+	id="repository.UNCODED" 
+	version="1.0.0" 
+	name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR] " 
+	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
+
+	<extension point="xbmc.addon.repository" name="Aftermath Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/</datadir>
+		</dir>
+		<info compressed="false">http://raw.uncoded.tv/nickpet3rs/UNCODED/master/addons.xml</info>
+		<checksum>http://raw.uncoded.tv/nickpet3rs/UNCODED/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.uncoded.tv/nickpet3rs/UNCODED/master/</datadir>
+
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+
+		<summary>[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Installer[/COLOR]</summary>
+		<description>UNCODED is the new succesor when it comes to a one stop shop for all your favorite KODI addons and repositories.</description>
+		<source>https://uncoded.tv</source>
+		<platform>all</platform>
+	</extension>
+</addon>

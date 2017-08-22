@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+	id="plugin.program.UNCODED" 
+	version="1.0.0" 
+	name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Installer[/COLOR]" 
+	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.UNCODED" version="1.0.0" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en">[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Installer[/COLOR]</summary>
+    <description lang="en">UNCODED allows you to get access to the latest UNCODED Custom Builds.</description>
+    <source>https://uncoded.tv</source>
+    <platform>all</platform>
+  </extension>
+</addon>
