@@ -26,20 +26,20 @@
 </addon>
 
 <addon
-	id="repository.aftermath"
-	version="1.0.0"
+	id="repository.UNCODED"
+	version="1.0.2"
 	name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR] "
-	provider-name="Aftermath">
+	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
 
-	<extension point="xbmc.addon.repository" name="Aftermath Repo">
+	<extension point="xbmc.addon.repository" name"UNCODED -Repository">
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/nickpet3rs/UNC0DED/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nickpet3rs/UNC0DED/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nickpet3rs/UNC0DED/master/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/</datadir>
 		</dir>
-		<info compressed="false">http://raw.uncoded.tv/nickpet3rs/UNC0DED/master/addons.xml</info>
-		<checksum>http://raw.uncoded.tv/nickpet3rs/UNC0DED/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.uncoded.tv/nickpet3rs/UNC0DED/master/</datadir>
+		<info compressed="false">http://raw.uncoded.tv/nickpet3rs/UNCODED/master/addons.xml</info>
+		<checksum>http://raw.uncoded.tv/nickpet3rs/UNCODED/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.uncoded.tv/nickpet3rs/UNCODED/master/</datadir>
 
 	</extension>
 
