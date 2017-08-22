@@ -23,7 +23,8 @@
     <platform>all</platform>
     <source>https://github.com/nickpet3rs/UNCODED/blob/master/repository.UNCODED/</source>
     <email>admin@uncoded.tv</email>
-      <assets>
+    <news>One stop shop for your favorite KODI add-ons and repositories</news>
+	<assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
         <screenshot>resources/art/screenshot-02.jpg</screenshot>
@@ -33,10 +34,7 @@
         <screenshot>resources/art/screenshot-06.jpg</screenshot>
         <screenshot>resources/art/screenshot-07.jpg</screenshot>
         <screenshot>resources/art/screenshot-01.jpg</screenshot>
-</assets>
-<news>Initial Release</news>
-</assets>
-<news>One stop shop for your favorite KODI add-ons and repositories</news>
+	</assets>
   </extension>
 </addon>
 
