@@ -18,7 +18,7 @@
   <extension point="xbmc.addon.metadata">
 
     <summary lang="en">[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Installer[/COLOR]</summary>
-        <description lang="en">[COLOR darkorange]UNCODED[/COLOR] is the new succesor for KODI, your one stop shop for favorite add-ons and repositories</description>
+        <description lang="en">UNCODED is the new succesor, your one stop shop for KODI to get the most favorited add-ons and repositories</description>
             <disclaimer lang="en">[COLOR darkorange]UNCODED[/COLOR] did not make all the add-ons in UNCODED repository and is in no way responsible for their content.</disclaimer>
     <platform>all</platform>
     <source>https://github.com/nickpet3rs/UNCODED/blob/master/repository.UNCODED/</source>
@@ -26,9 +26,13 @@
       <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
-      <screenshots>resources/art/screenshots/screenshot1.png</screenshots>
-      <screenshots>resources/art/screenshots/screenshot2.png</screenshots>
-      <screenshots>resources/art/screenshots/screenshot3.png</screenshots>
+<!--  <screenshots>resources/art/screenshots/1.png</screenshots> -->
+      <screenshots>resources/art/screenshots/2.png</screenshots>
+      <screenshots>resources/art/screenshots/3.png</screenshots>
+      <screenshots>resources/art/screenshots/4.png</screenshots>
+      <screenshots>resources/art/screenshots/5.png</screenshots>
+      <screenshots>resources/art/screenshots/6.png</screenshots>
+      <screenshots>resources/art/screenshots/7.png</screenshots>
     </assets>
   </extension>
 </addon>
