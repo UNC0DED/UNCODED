@@ -2,7 +2,7 @@
 <addons>
 <addon
 	id="plugin.program.UNCODED"
-	version="1.0.4"
+	version="1.0.5"
 	name="[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Installer[/COLOR]"
 	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
   <requires>
