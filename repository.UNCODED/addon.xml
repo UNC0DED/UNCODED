@@ -9,11 +9,11 @@
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/repository.UNCODED/</datadir>
+			<datadir zip="true">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/</datadir>
 		</dir>
 		<info compressed="false">http://raw.uncoded.tv/nickpet3rs/UNCODED/master/addons.xml</info>
 		<checksum>http://raw.uncoded.tv/nickpet3rs/UNCODED/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.uncoded.tv/nickpet3rs/UNCODED/master/repository.UNCODED/</datadir>
+		<datadir zip="true">http://raw.uncoded.tv/nickpet3rs/UNCODED/master/</datadir>
 
 	</extension>
 
