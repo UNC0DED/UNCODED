@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon 
 	id="repository.UNCODED" 
-	version="1.0.5" 
-	name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR]" 
+	version="1.0.6" 
+	name="[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Repository[/COLOR]" 
 	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
 	<extension point="xbmc.addon.repository" 
-		name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR]">
+		name="[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Repository[/COLOR]">
 		<dir minversion="16.9.9">
 			<info compressed="false">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml.md5</checksum>
@@ -18,12 +18,12 @@
 		</dir>	
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR]</summary>
+		<summary lang="en">[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Repository[/COLOR]</summary>
 			<description lang="en">This is my repository. I can and will do whatever I want with it. Some stuff in here can and will overwrite allready installed addons. If you do not want that, do not install this repo!</description>
-				<disclaimer lang="en">[B][COLOR darkorange]UNCODED[/COLOR][/B] did not make all the add-ons in this repository and is in no way responsible for their content.</disclaimer>
-		<summary lang="nl">[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR]</summary>
+				<disclaimer lang="en">[COLOR darkorange]UNCODED[/COLOR] did not make all the add-ons in this repository and is in no way responsible for their content.</disclaimer>
+		<summary lang="nl">[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Repository[/COLOR]</summary>
 			<description lang="nl">Dit is mijn depot. Ik kan hiermee doen en laten wat ik wil. Sommige dingen in dit depot kunnen en zullen reeds geinstalleerde addons overschrijven. Als je dat niet wil, installeer dit depot dan niet!</description>
-				<disclaimer lang="nl">[B][COLOR darkorange]UNCODED[/COLOR][/B] heeft niet alle add-ons in dit depot gemaakt en is ook op geen enkele manier verantwoordelijk voor hun inhoud.</disclaimer>
+				<disclaimer lang="nl">[COLOR darkorange]UNCODED[/COLOR] heeft niet alle add-ons in dit depot gemaakt en is ook op geen enkele manier verantwoordelijk voor hun inhoud.</disclaimer>
 		<platform>all</platform>
 		<source>https://github.com/nickpet3rs/UNCODED/blob/master/repository.UNCODED/</source>
 		<email>admin@uncoded.tv</email>

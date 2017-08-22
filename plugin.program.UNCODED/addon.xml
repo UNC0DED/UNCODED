@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon 
 	id="plugin.program.UNCODED" 
-	version="1.0.1" 
-	name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Installer[/COLOR]" 
+	version="1.0.2" 
+	name="[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Installer[/COLOR]" 
 	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
-
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="repository.UNCODED" version="1.0.0" />
+    <import addon="repository.UNCODED" version="1.0.5" />
   </requires>
 
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -17,9 +16,18 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
 
-    <summary lang="en">[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Installer[/COLOR]</summary>
-    <description lang="en">UNCODED allows you to get access to the latest UNCODED Custom Builds.</description>
-    <source>https://uncoded.tv</source>
+    <summary lang="en">[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Installer[/COLOR]</summary>
+        <description lang="en">[COLOR darkorange]UNCODED[/COLOR] is the new succesor for KODI, your one stop shop for favorite add-ons and repositories</description>
+            <disclaimer lang="en">[COLOR darkorange]UNCODED[/COLOR] did not make all the add-ons in UNCODED repository and is in no way responsible for their content.</disclaimer>
     <platform>all</platform>
+    <source>https://github.com/nickpet3rs/UNCODED/blob/master/repository.UNCODED/</source>
+    <email>admin@uncoded.tv</email>
+      <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshots>resources/art/screenshots/screenshot1.png</screenshots>
+      <screenshots>resources/art/screenshots/screenshot2.png</screenshots>
+      <screenshots>resources/art/screenshots/screenshot3.png</screenshots>
+    </assets>
   </extension>
 </addon>
