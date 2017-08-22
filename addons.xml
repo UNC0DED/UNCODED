@@ -24,16 +24,17 @@
     <source>https://github.com/nickpet3rs/UNCODED/blob/master/repository.UNCODED/</source>
     <email>admin@uncoded.tv</email>
       <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-<!--  <screenshots>resources/art/screenshots/1.png</screenshots> -->
-      <screenshots>resources/art/screenshot2.png</screenshots>
-      <screenshots>resources/art/screenshot3.png</screenshots>
-      <screenshots>resources/art/screenshot4.png</screenshots>
-      <screenshots>resources/art/screenshot5.png</screenshots>
-      <screenshots>resources/art/screenshot6.png</screenshots>
-      <screenshots>resources/art/screenshot7.png</screenshots>
-    </assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/art/2.jpg</screenshot>
+        <screenshot>resources/art/3.jpg</screenshot>
+        <screenshot>resources/art/4.jpg</screenshot>
+        <screenshot>resources/art/5.jpg</screenshot>
+        <screenshot>resources/art/6.jpg</screenshot>
+        <screenshot>resources/art/7.jpg</screenshot>
+        <screenshot>resources/art/1.jpg</screenshot>
+</assets>
+<news>One stop shop for your favorite KODI add-ons and repositories</news>
   </extension>
 </addon>
 
