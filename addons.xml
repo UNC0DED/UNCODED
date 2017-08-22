@@ -27,27 +27,39 @@
 
 <addon
 	id="repository.UNCODED"
-	version="1.0.3"
-	name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR] "
+	version="1.0.5"
+	name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR]"
 	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
-
-	<extension point="xbmc.addon.repository" name="UNCODED -Github">
-		<dir>
+	<extension point="xbmc.addon.repository"
+		name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR]">
+		<dir minversion="16.9.9">
 			<info compressed="false">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/</datadir>
 		</dir>
-		<info compressed="false">http://raw.uncoded.tv/master/addons.xml</info>
-		<checksum>http://raw.uncoded.tv/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.uncoded.tv/master/</datadir>
+		<dir minversion="16.9.9">
+			<info compressed="false">http://raw.uncoded.tv/master/addons.xml</info>
+			<checksum>http://raw.uncoded.tv/master/addons.xml.md5</checksum>
+			<datadir zip="true">http://raw.uncoded.tv/master/</datadir>
+		</dir>
 	</extension>
-
 	<extension point="xbmc.addon.metadata">
-
-		<summary>[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Installer[/COLOR]</summary>
-		<description>UNCODED is the new succesor when it comes to a one stop shop for all your favorite KODI addons and repositories.</description>
-		<source>https://uncoded.tv</source>
+		<summary lang="en">[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR]</summary>
+			<description lang="en">This is my repository. I can and will do whatever I want with it. Some stuff in here can and will overwrite allready installed addons. If you do not want that, do not install this repo!</description>
+				<disclaimer lang="en">[B][COLOR darkorange]UNCODED[/COLOR][/B] did not make all the add-ons in this repository and is in no way responsible for their content.</disclaimer>
+		<summary lang="nl">[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR]</summary>
+			<description lang="nl">Dit is mijn depot. Ik kan hiermee doen en laten wat ik wil. Sommige dingen in dit depot kunnen en zullen reeds geinstalleerde addons overschrijven. Als je dat niet wil, installeer dit depot dan niet!</description>
+				<disclaimer lang="nl">[B][COLOR darkorange]UNCODED[/COLOR][/B] heeft niet alle add-ons in dit depot gemaakt en is ook op geen enkele manier verantwoordelijk voor hun inhoud.</disclaimer>
 		<platform>all</platform>
+		<source>https://github.com/nickpet3rs/UNCODED/blob/master/repository.UNCODED/</source>
+		<email>admin@uncoded.tv</email>
+			<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshots>resources/art/screenshots/screenshot1.png</screenshots>
+			<screenshots>resources/art/screenshots/screenshot2.png</screenshots>
+			<screenshots>resources/art/screenshots/screenshot3.png</screenshots>
+		</assets>
 	</extension>
 </addon>
 </addons>
