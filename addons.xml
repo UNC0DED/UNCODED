@@ -27,19 +27,19 @@
 
 <addon
 	id="repository.UNCODED"
-	version="1.0.2"
+	version="1.0.0"
 	name="[B][COLOR darkorange]UNCODED[/COLOR][/B] [COLOR ghostwhite]-Repository[/COLOR] "
 	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
 
-	<extension point="xbmc.addon.repository" name"UNCODED -Repository">
+	<extension point="xbmc.addon.repository" name="UNCODED -Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/</datadir>
+			<datadir zip="true">https://raw.githubusercontent.com/nickpet3rs/UNCODED/master/repository.UNCODED/</datadir>
 		</dir>
 		<info compressed="false">http://raw.uncoded.tv/nickpet3rs/UNCODED/master/addons.xml</info>
 		<checksum>http://raw.uncoded.tv/nickpet3rs/UNCODED/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.uncoded.tv/nickpet3rs/UNCODED/master/</datadir>
+		<datadir zip="true">http://raw.uncoded.tv/nickpet3rs/UNCODED/master/repository.UNCODED/</datadir>
 
 	</extension>
 
