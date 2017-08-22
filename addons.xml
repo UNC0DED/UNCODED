@@ -2,7 +2,7 @@
 <addons>
 <addon
 	id="plugin.program.UNCODED"
-	version="1.0.3"
+	version="1.0.4"
 	name="[COLOR darkorange]UNCODED[/COLOR] [COLOR ghostwhite]-Installer[/COLOR]"
 	provider-name="[COLOR darkgrey]nickpet3rs[/COLOR]">
   <requires>
@@ -26,13 +26,15 @@
       <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
-        <screenshot>resources/art/2.jpg</screenshot>
-        <screenshot>resources/art/3.jpg</screenshot>
-        <screenshot>resources/art/4.jpg</screenshot>
-        <screenshot>resources/art/5.jpg</screenshot>
-        <screenshot>resources/art/6.jpg</screenshot>
-        <screenshot>resources/art/7.jpg</screenshot>
-        <screenshot>resources/art/1.jpg</screenshot>
+        <screenshot>resources/art/screenshot-02.jpg</screenshot>
+        <screenshot>resources/art/screenshot-03.jpg</screenshot>
+        <screenshot>resources/art/screenshot-04.jpg</screenshot>
+        <screenshot>resources/art/screenshot-05.jpg</screenshot>
+        <screenshot>resources/art/screenshot-06.jpg</screenshot>
+        <screenshot>resources/art/screenshot-07.jpg</screenshot>
+        <screenshot>resources/art/screenshot-01.jpg</screenshot>
+</assets>
+<news>Initial Release</news>
 </assets>
 <news>One stop shop for your favorite KODI add-ons and repositories</news>
   </extension>
