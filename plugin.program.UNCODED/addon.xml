@@ -26,13 +26,13 @@
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-            <screenshot>resources/art/screenshots/2.png</screenshot>
-            <screenshot>resources/art/screenshots/3.png</screenshot>
-            <screenshot>resources/art/screenshots/4.png</screenshot>
-            <screenshot>resources/art/screenshots/5.png</screenshot>
-            <screenshot>resources/art/screenshots/6.png</screenshot>
-            <screenshot>resources/art/screenshots/7.png</screenshot>
-            <screenshot>resources/art/screenshots/1.png</screenshot>
+            <screenshot>resources/art/screenshots/2.jpg</screenshot>
+            <screenshot>resources/art/screenshots/3.jpg</screenshot>
+            <screenshot>resources/art/screenshots/4.jpg</screenshot>
+            <screenshot>resources/art/screenshots/5.jpg</screenshot>
+            <screenshot>resources/art/screenshots/6.jpg</screenshot>
+            <screenshot>resources/art/screenshots/7.jpg</screenshot>
+            <screenshot>resources/art/screenshots/1.jpg</screenshot>
 	   </assets>
     </extension>
 </addon>
